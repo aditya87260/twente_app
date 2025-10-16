@@ -199,7 +199,7 @@ with tabs[0]:
                 subgraph cluster_f { label = "Federated Orchestration"; style=dashed; Fed[label="Aggregator (weights)"]; Model -> Fed; Fed -> Model; }
             }
         """)
-    st.markdown(styled_box_html("<b>Presentation tip:</b> Use the 'Treatment Comparison' and 'Explainability' tabs to show clinicians how decisions are justified and actionable."), unsafe_allow_html=True)
+    st.markdown(styled_box_html("We will use the 'Treatment Comparison' and 'Explainability' tabs to show clinicians how decisions are justified and actionable."), unsafe_allow_html=True)
 
 # ----------------------------
 # TAB: Data Input
